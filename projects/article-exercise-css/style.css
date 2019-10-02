@@ -1,0 +1,43 @@
+body {
+  background: yellow;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
+img {
+  width: 700px;
+  margin-left: 400px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #FF8C69;
+  width: 500px;
+  margin-left: 500px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: #FF8C69;
+  width: 700px;
+  margin-left: 500px;
+}
+
+h3 {
+  color: #FF8C69;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 30px;
+}
+
+ul {
+  margin-left: 150px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #FF8C69;
+}

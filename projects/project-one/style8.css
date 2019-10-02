@@ -1,0 +1,19 @@
+body {
+  padding-left: 100px;
+  padding-top: 200px;
+  font-family: monospace;
+  font-size: 14px;
+  position: absolute;
+  background: lightgrey;
+}
+
+a {
+  color: black;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  /* background: lightgrey; */
+  position: fixed;
+}

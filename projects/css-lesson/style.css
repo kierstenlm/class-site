@@ -1,0 +1,23 @@
+p {
+  color: white;
+  background: black;
+  font-family: monospace;
+  border: 2px dashed blue;
+  width: 300px;
+}
+
+.body-p {
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+.square {
+  background: red;
+  height: 40px;
+  width: 40px;
+  margin-left: 50px;
+}
+
+.triangle {
+  font-size: 40px;
+}

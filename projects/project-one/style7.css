@@ -1,0 +1,41 @@
+h3 {
+  color: purple;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+p1 {
+  color: red;
+  font-family: sans-serif;
+}
+
+p2 {
+  color: hotpink;
+  font-family: sans-serif;
+}
+
+p3 {
+  color: pink;
+  font-family: sans-serif;
+}
+
+p4 {
+  color: salmon;
+  font-family: sans-serif;
+}
+
+p5 {
+  color: orange;
+  font-family: sans-serif;
+}
+
+p6 {
+  color: yellow;
+  font-family: sans-serif;
+}
+
+a {
+  color: blue;
+  font-family: sans-serif;
+  font-size: 10px;
+}

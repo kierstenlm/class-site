@@ -1,0 +1,26 @@
+p {
+  padding-left: 50px;
+}
+
+h3 {
+  padding-left: 50px;
+  font-family: monospace;
+  color: black;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: white;
+  background: hotpink;
+}
+
+a {
+  font-size: 8px;
+  font-family: sans-serif;
+  color: black;
+}
+
+body {
+  padding-top: 200px;
+}
