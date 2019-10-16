@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fridge Magnets</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="mydiv">
+        <div id="mydivheader1">The</div>
+        <div id="mydivheader2">His</div>
+        <div id="mydivheader3">Likes</div>
+        <div id="mydivheader4">To</div>
+        <div id="mydivheader5">Run</div>
+        <div id="mydivheader6">Outside</div>
+        <div id="mydivheader7">Hates</div>
+        <div id="mydivheader8">He</div>
+        <div id="mydivheader9">Toe</div>
+        <div id="mydivheader10">Hotdog</div>
+        <div id="mydivheader11">Code</div>
+        <div id="mydivheader12">And</div>
+        <div id="mydivheader13">Loves</div>
+        <div id="mydivheader14">Really</div>
+        <div id="mydivheader15">I</div>
+        <div id="mydivheader16">Don't</div>
+        <div id="mydivheader17">Know</div>
+        <div id="mydivheader18">How</div>
+        <div id="mydivheader19">Is</div>
+        <div id="mydivheader20">Stupid</div>
+    </div>
+
+    <script>
+    // Make the DIV element draggable:
+    // dragElement(document.getElementById("mydiv"));
+    // let divs = document.querySelectorAll("div");
+    // Object.entries(divs).map(( object ) => {
+        // object[1].onmousedown = dragMouseDown;
+    // });
+
+
+    let i;
+    for (i = 1; i <= 20; i++) {
+        let id = "mydivheader" + i.toString();
+        console.log(id);
+        dragElement(document.getElementById(id));
+    }
+
+    function dragElement(elmnt) {
+      var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+      // if (document.getElementById(elmnt.id + "header1","header2","header3","header4","header5","header6","header7","header8","header9","header10","header11","header12","header13","header14","header15","header16","header17","header18","header19","header20")) {
+      //   // if present, the header is where you move the DIV from:
+      //   document.getElementById(elmnt.id + "header1","header2","header3","header4","header5","header6","header7","header8","header9","header10","header11","header12","header13","header14","header15","header16","header17","header18","header19","header20").onmousedown = dragMouseDown;
+      // } else {
+      //   // otherwise, move the DIV from anywhere inside the DIV:
+      //   elmnt.onmousedown = dragMouseDown;
+      // }
+      elmnt.onmousedown = dragMouseDown;
+
+      function dragMouseDown(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // get the mouse cursor position at startup:
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        document.onmouseup = closeDragElement;
+        // call a function whenever the cursor moves:
+        document.onmousemove = elementDrag;
+      }
+
+      function elementDrag(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // calculate the new cursor position:
+        pos1 = pos3 - e.clientX;
+        pos2 = pos4 - e.clientY;
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        // set the element's new position:
+        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+      }
+
+      function closeDragElement() {
+        // stop moving when mouse button is released:
+        document.onmouseup = null;
+        document.onmousemove = null;
+      }
+    }
+    </script>
+</body>
+</html>

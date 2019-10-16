@@ -1,0 +1,211 @@
+
+
+#mydiv {
+  position: absolute;
+  background-color: grey;
+  text-align: center;
+  /* border: 1px solid black; */
+  font-family: sans-serif;
+  box-shadow: 2px 2px 1px grey;
+}
+
+#mydivheader1 {
+  position: absolute;
+  top: 50px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader2 {
+  position: absolute;
+  top: 100px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader3 {
+  position: absolute;
+  top: 150px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader4 {
+  position: absolute;
+  top: 200px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader5 {
+  position: absolute;
+  top: 250px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader6 {
+  position: absolute;
+  top: 300px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader7 {
+  position: absolute;
+  top: 350px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader8 {
+  position: absolute;
+  top: 450px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader9 {
+  position: absolute;
+  top: 500px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader10 {
+  position: absolute;
+  top: 550px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader11 {
+  position: absolute;
+  top: 600px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader12 {
+  position: absolute;
+  top: 650px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader13 {
+  position: absolute;
+  top: 700px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader14 {
+  position: absolute;
+  top: 750px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader15 {
+  position: absolute;
+  top: 800px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader16 {
+  position: absolute;
+  top: 850px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader17 {
+  position: absolute;
+  top: 900px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader18 {
+  position: absolute;
+  top: 950px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader19 {
+  position: absolute;
+  top: 1000px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mydivheader20 {
+  position: absolute;
+  top: 1050px;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
