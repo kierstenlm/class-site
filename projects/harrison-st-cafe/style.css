@@ -1,0 +1,278 @@
+html {
+  background-color: #f2f2f2;
+}
+
+body {
+  padding:0;
+  margin: 0;
+}
+
+.nav {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: .95;
+  z-index: 999
+}
+
+.nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 10pt;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1.2pt;
+  position: relative;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+.nav a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #ff7700;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.nav .logo:hover:before {
+  visibility: hidden;
+}
+
+.nav .on-page:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+img {
+  width: 100px;
+}
+.content {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  /* margin-bottom: 100px; */
+}
+/* BANNERS */
+.menu {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  font-family: 'Alata', sans-serif;
+  font-size: 50pt;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 100px;
+  background-image: url(menu-01.png);
+  /* position: relative; */
+  background-size: 100%;
+}
+
+.about {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  font-family: 'Alata', sans-serif;
+  font-size: 50pt;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 100px;
+  background-image: url(about-02.png);
+  /* position: relative; */
+  background-size: cover;
+}
+
+.contact {
+  font-family: 'Alata', sans-serif;
+  font-size: 50pt;
+  padding-top: 100px;
+}
+
+.crew {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  font-family: 'Alata', sans-serif;
+  font-size: 50pt;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 100px;
+  background-image: url(https://www.incimages.com/uploaded_files/image/970x450/web_Brand_Evolution_212321.jpg);
+  /* position: relative; */
+  background-size: 100%;
+}
+/* .wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+} */
+
+/* .section {
+  position: relative;
+  height: 100vh;
+} */
+
+/* .parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+} */
+
+.options {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  margin-bottom: 100px;
+  padding-right: 200px;
+}
+
+.listitems {
+  text-decoration: none;
+  font-family: 'Solway', serif;
+  font-size: 16px;
+  width: 30vw;
+  padding-left: 50px;
+  line-height: 25px;
+}
+
+.listitems a {
+  text-decoration: none;
+  color: black;
+}
+
+.listitems a:hover {
+  text-decoration: underline;
+}
+
+.food {
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.price {
+  font-family: 'Solway', serif;
+  font-size: 20px;
+}
+
+.body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.big {
+  font-family: 'Solway', serif;
+  font-size: 18px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  /* padding-top: 100px; */
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.info {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border: 1px solid;
+  border-color: darkorange;
+}
+
+.bold {
+  font-family: 'Solway', serif;
+  font-size: 20px;
+  color: darkorange;
+}
+
+.footer {
+  display: flex;
+  padding-top: 50px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100vw;
+  height: 200px;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  position: static;
+  z-index: -1;
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.left {
+  padding-left: 15vw;
+}
+
+.right {
+  padding-right: 15vw;
+}
+
+.right a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  padding-top: 50px;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 50px;
+  padding-right: 50px;
+}
