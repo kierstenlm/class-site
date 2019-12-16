@@ -1,0 +1,29 @@
+.style {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+}
+
+.style {
+  transform: translatex(300px);
+}
+
+.button {
+  cursor: crosshair;
+  right: 0;
+  position: fixed;
+}
+
+#box {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  background: black;
+  transition: transform .5s ease;
+  color: white;
+}
